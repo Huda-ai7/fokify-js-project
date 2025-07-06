@@ -122,6 +122,10 @@ const controlAddRecipe = async function (newRec) {
     addRecipeView.renderError(err.message);
   }
 };
+
+const newFeature = function () {
+  alert('welcome to the new-branch where you can modify');
+};
 // refactor the addEventListener
 const init = function () {
   bookmarkView.addHandler(controlBookmark);
@@ -131,5 +135,6 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResult);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHandlerUplod(controlAddRecipe);
+  newFeature();
 };
 init();
