@@ -124,7 +124,7 @@ const controlAddRecipe = async function (newRec) {
 };
 
 const newFeature = function () {
-  console.log('welcome to the new-branch where you can modify');
+  console.log('welcome to the new-branch where you can modify ✌🏻');
 };
 // refactor the addEventListener
 const init = function () {
